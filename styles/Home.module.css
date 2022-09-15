@@ -1,14 +1,43 @@
 .container {
   padding: 0 2rem;
 }
+.absolute{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: rgba(17, 17, 17, 0.296);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.contmail{
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border-radius: 10px;
+}
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex: 1;
+  border-top: 1px solid #eaeaea;
+  justify-content: space-between;
   align-items: center;
 }
 
