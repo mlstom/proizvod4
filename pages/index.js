@@ -44,7 +44,16 @@ export default function Home() {
             <Image src={slika} alt='lulu' />
           </div>
           <h2 style={{color:'#6c63ff',margin:0,marginTop:'20px'}}>Do not miss out on this incredible solution</h2>
-          <p>Kratak tekst o proizvodu <span onClick={(e)=>setemail(true)}>Klikni da otvoris mejl</span></p>
+          <p>
+          Cleaner Smile was created to help people struggling with tooth stains
+          discoloration to enjoy the confidence of a beautiful, bright smile.
+          Solutions to whitening are often expensive and inconvenient. Cleaner Smile
+          offers an alternative: an easy-to-use system that restores whiteness to
+          help you feel confident and live your best life.
+          Click the button below now to pick out your Cleaner Smile system and start
+          smiling bigger!
+        </p>
+          <p>If you want more about this item just <span style={{color:'#6c63ff',textDecoration:'underline'}} onClick={(e)=>setemail(true)}>click here to watch video about it</span></p>
       </main>
     </div>
   )
