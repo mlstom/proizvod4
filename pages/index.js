@@ -53,7 +53,7 @@ export default function Home() {
           Click the button below now to pick out your Cleaner Smile system and start
           smiling bigger!
         </p>
-          <p>If you want more about this item just <span style={{color:'#6c63ff',textDecoration:'underline'}} onClick={(e)=>setemail(true)}>click here to watch video about it</span></p>
+          <p>If you want more about this item just <span style={{color:'#6c63ff',textDecoration:'underline',cursor:'pointer'}} onClick={(e)=>setemail(true)}>click here to watch video about it</span></p>
       </main>
     </div>
   )
