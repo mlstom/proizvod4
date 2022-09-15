@@ -43,7 +43,7 @@ export default function Home() {
           <div onClick={(e)=>setemail(true)}>
             <Image src={slika} alt='lulu' />
           </div>
-          <h2 style={{color:'#6c63ff',margin:0,marginTop:'20px'}}>Don't miss out on this incredible solution</h2>
+          <h2 style={{color:'#6c63ff',margin:0,marginTop:'20px'}}>Nesto vezano za tekst</h2>
           <p>Kratak tekst o proizvodu <span onClick={(e)=>setemail(true)}>Klikni da otvoris mejl</span></p>
       </main>
     </div>
