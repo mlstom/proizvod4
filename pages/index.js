@@ -9,14 +9,14 @@ export default function Home() {
   const [email, setemail] = useState(false)
   const [mail, setmail] = useState('')
   const handle =async ()=>{
-      await fetch('/api/users',{
-        method:"POST",
-        headers:{
-          'Content-Type': 'application/json',
-        },
-        body:JSON.stringify({mail})
-      })
-      Router.push('https://www.instagram.com/mlstomic')
+    await fetch('/api/users', {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ mail })
+    })
+    Router.push('https://www.digistore24.com/redir/431478/mlstomic/')
   }
   return (
     <div className={styles.container}>
@@ -28,9 +28,9 @@ export default function Home() {
       {email &&
           <div className={styles.absolute}>
             <div className={styles.contmail}>
-                <p>Neki kratak mejl zasto da daju mejl</p>
+              <p>Just to be sure that you are human, enter your mail below</p>
                 <input style={{padding:'5px 10px'}} type='email' placeholder='exaple@inkrist.net' value={mail} onChange={(e)=>setmail(e.target.value)} />
-                <a onClick={()=>handle()} style={{color:'#fff',backgroundColor:'#6c63ff',padding:'5px 10px', borderRadius:'10px',marginTop:'20px', cursor:'pointer'}}>Link ka dalje </a>
+                <a onClick={()=>handle()} style={{color:'#fff',backgroundColor:'#6c63ff',padding:'5px 10px', borderRadius:'10px',marginTop:'20px', cursor:'pointer'}}>Start watching now!!! </a>
             </div>
           </div>
       }
@@ -39,11 +39,11 @@ export default function Home() {
         <p>Home</p>
       </header>
       <main className={styles.main}>
-          <h1 style={{color:'#6c63ff'}} >Ovo je kao neki zapanjujus naslov</h1>
+          <h1 style={{color:'#6c63ff'}} >TRY CLEANER SMILE NOW</h1>
           <div onClick={(e)=>setemail(true)}>
-            <Image src={slika} />
+            <Image src={slika} alt='lulu' />
           </div>
-          <h2 style={{color:'#6c63ff',margin:0,marginTop:'20px'}}>Nesto vezano za tekst</h2>
+          <h2 style={{color:'#6c63ff',margin:0,marginTop:'20px'}}>Don't miss out on this incredible solution</h2>
           <p>Kratak tekst o proizvodu <span onClick={(e)=>setemail(true)}>Klikni da otvoris mejl</span></p>
       </main>
     </div>
