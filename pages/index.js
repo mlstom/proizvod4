@@ -75,14 +75,14 @@ export default function Home() {
           Targeted Keto allows you to STILL indulge in all your favorite foods…
           And it's the main reason why the women who use Targeted Keto are getting such great results.
           Take Charlene for example...
-          “I originally lost 50 pounds without exercise (from May 2018-February 2019) then lost another 17 lbs after that. Thank you, Dr. Ashley!” - Charlene B.
+          'I originally lost 50 pounds without exercise (from May 2018-February 2019) then lost another 17 lbs after that. Thank you, Dr. Ashley' - Charlene B.
            And Emily P. …
           <br/>
           <br/>
-          "I lost 15 pounds ... I think this may have been the easiest weight loss I have ever had!" - Emily P.
+        'I lost 15 pounds ... I think this may have been the easiest weight loss I have ever had' - Emily P.
           Or Christy R., who also watched this video and said:
-          "I have lost 50 pounds in 5 months and I'm off all medications!”
-          So if you're truly serious about losing as much weight as you can, as safely and enjoyably as you can, while reclaiming your health…
+        'I have lost 50 pounds in 5 months and I'm off all medications'
+          So if you're truly serious about losing as much weight as you can, as safely and enjoyably as you can, while reclaiming your health.
         </p>
         <p>If you want more about this item just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here to watch video about it</span></p>
       </main>
