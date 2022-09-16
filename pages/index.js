@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react'
-import slika from '../slike/Slika.png'
+import slika from '../slike/Slika3.png'
 import Router from 'next/router'
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
     }
   }
   const handle = async () => {
-    Router.push('https://www.digistore24.com/redir/424534/mlstomic/')
+    Router.push('https://www.digistore24.com/redir/447323/mlstomic/')
   }
   const keyUp = (e) => {
     if (e.keyCode == 13) {
@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>The Two-Week Keto Challenge</title>
-        <meta name="description" content="The Two-Week Keto Challenge" />
+        <title>Fit In 15</title>
+        <meta name="description" content="Fit In 15" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {email &&
@@ -57,34 +57,34 @@ export default function Home() {
         </div>
       }
       <header className={styles.header}>
-        <p style={{ fontSize: '20px' }}>The Two-Week Keto Challenge</p>
+        <p style={{ fontSize: '20px' }}>Fit In 15</p>
         <p>Home</p>
       </header>
       <main className={styles.main}>
-        <h1 style={{ color: '#6c63ff' }} >Keto wo not work unless you do THIS</h1>
-        <div onClick={(e) => handle()}>
+        <h1 style={{ color: '#6c63ff' }} >Learn a simple way to track calories</h1>
+        <div onClick={(e) => handle()} style={{ cursor: 'pointer' }}>
           <Image src={slika} alt='lulu' />
         </div>
-        <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>Do not miss out on this incredible solution</h2>
+        <h2 style={{ color: '#6c63ff', margin: 0, marginTop: '20px' }}>The last fat loss plan you will need</h2>
         <p>
-          I would like to send you this video about how I lost 100 lbs using Targeted Keto…
-          <br/>
-          <br/>
-          The special version of keto that allows you to ease into the keto diet.
-          Unlike a regular keto diet which can make you feel like you are sick with the flu while having food poisoning.
-          Targeted Keto allows you to STILL indulge in all your favorite foods.
-          And it is the main reason why the women who use Targeted Keto are getting such great results.
-          Take Charlene for example...
-          I originally lost 50 pounds without exercise (from May 2018-February 2019) then lost another 17 lbs after that. Thank you, Dr. Ashley from Charlene B.
-          And Emily P. ...
-          <br/>
-          <br/>
-        I lost 15 pounds ... I think this may have been the easiest weight loss I have ever had from Emily P.
-          Or Christy R., who also watched this video and said:
-        I have lost 50 pounds in 5 months and I am off all medications
-          So if you are truly serious about losing as much weight as you can, as safely and enjoyably as you can, while reclaiming your health.
-        </p>
-        <p>If you want more about this item just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here to watch video about it</span></p>
+          Have you ever spent money on a workout plan that just did not cut it?
+          <br/> <br/>
+          Maybe you even joined a gym with great intentions, but never quick knew where to start.
+          If so, your not alone.
+          <br/> <br/>
+          Fitness is a multi-billion dollar industry.
+          <br/> <br/>
+          More new exercise devices are hitting the market every single day, and it seems like new gyms are
+          popping up all over the place.
+          <br/> <br/>
+          The truth is you do not need a crazy amount of equipment to burn fat.
+          Getting in the best shape of your life does not have to be expensive.
+          <br/> <br/>
+          In fact, you can get in great shape for no cost. But you need a plan that grows with you.
+          All you need is my step-by-step guide, and its less than $10.
+          <br/> <br/>
+          Click the link below to take a look at what you will get...</p>
+        <p>If you want to know more about this just <span style={{ color: '#6c63ff', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => handle()}>click here to watch video about it</span></p>
       </main>
     </div>
   )
