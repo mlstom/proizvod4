@@ -144,6 +144,9 @@
     width: 100%;
     flex-direction: column;
   }
+  .contmail{
+    width: 250px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
